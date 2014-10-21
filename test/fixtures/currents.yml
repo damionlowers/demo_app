@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Reading: 1
+  Previous: MyString
+  Reading: 1
+  meter: 1
+
+two:
+  Reading: 1
+  Previous: MyString
+  Reading: 1
+  meter: 1

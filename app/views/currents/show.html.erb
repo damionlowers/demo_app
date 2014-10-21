@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Reading:</strong>
+  <%= @current.Reading %>
+</p>
+
+<p>
+  <strong>Previous:</strong>
+  <%= @current.Previous %>
+</p>
+
+<p>
+  <strong>Reading:</strong>
+  <%= @current.Reading %>
+</p>
+
+<p>
+  <strong>Meter:</strong>
+  <%= @current.meter %>
+</p>
+
+<%= link_to 'Edit', edit_current_path(@current) %> |
+<%= link_to 'Back', currents_path %>

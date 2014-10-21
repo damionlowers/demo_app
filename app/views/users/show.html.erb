@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Current readings:</strong>
+  <%= @user.current_Readings %>
+</p>
+
+<p>
+  <strong>Previous readings:</strong>
+  <%= @user.Previous_Readings %>
+</p>
+
+<p>
+  <strong>Meter number:</strong>
+  <%= @user.meter_number %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>

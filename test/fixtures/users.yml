@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  current_Readings: 1
+  Previous_Readings: 1
+  meter_number: 1
+
+two:
+  current_Readings: 1
+  Previous_Readings: 1
+  meter_number: 1
